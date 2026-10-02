@@ -134,7 +134,7 @@ atm-fraud-detection/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/atm-fraud-detection.git
+git clone https://github.com/Salmanali9675/atm-fraud-detection.git
 cd atm-fraud-detection
 ```
 

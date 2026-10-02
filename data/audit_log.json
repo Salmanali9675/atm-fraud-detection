@@ -1,0 +1,244 @@
+[
+  {
+    "timestamp": "2026-10-01 21:59:52",
+    "card_id": "CARD_1001",
+    "amount": 5000.0,
+    "status": "APPROVED",
+    "risk_level": "LOW",
+    "fraud_prob": 0.0,
+    "action_taken": "DISPENSE_CASH",
+    "remaining_balance": 93000.0,
+    "reasons": [
+      "Transaction within regular safety bounds"
+    ],
+    "message": "TRANSACTION APPROVED: Please take your cash (Rs. 5,000). Remaining Balance: Rs. 93,000"
+  },
+  {
+    "timestamp": "2026-10-01 21:59:06",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:58:31",
+    "card_id": "CARD_1004",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:58:23",
+    "card_id": "CARD_1002",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:57:59",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:49",
+    "card_id": "CARD_1001",
+    "amount": 5000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:36",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:26",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:21",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:11",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "CARD_BLOCKED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "AUTO_BLOCKED",
+    "reasons": [
+      "Exceeded maximum allowed PIN attempts (3 failed tries)"
+    ],
+    "message": "ALERT: 3 failed PIN attempts detected. Card automatically BLOCKED to prevent brute force theft."
+  },
+  {
+    "timestamp": "2026-10-01 21:54:05",
+    "card_id": "CARD_1002",
+    "amount": 2000.0,
+    "status": "CARD_BLOCKED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "AUTO_BLOCKED",
+    "reasons": [
+      "Exceeded maximum allowed PIN attempts (3 failed tries)"
+    ],
+    "message": "ALERT: 3 failed PIN attempts detected. Card automatically BLOCKED to prevent brute force theft."
+  },
+  {
+    "timestamp": "2026-10-01 21:53:18",
+    "card_id": "CARD_1002",
+    "amount": 50000.0,
+    "status": "APPROVED",
+    "risk_level": "LOW",
+    "fraud_prob": 0.2917,
+    "action_taken": "DISPENSE_CASH",
+    "remaining_balance": 35000.0,
+    "reasons": [
+      "Transaction within regular safety bounds"
+    ],
+    "message": "TRANSACTION APPROVED: Please take your cash (Rs. 50,000). Remaining Balance: Rs. 35,000"
+  },
+  {
+    "timestamp": "2026-10-01 21:52:15",
+    "card_id": "CARD_1001",
+    "amount": 50000.0,
+    "status": "APPROVED",
+    "risk_level": "LOW",
+    "fraud_prob": 0.2167,
+    "action_taken": "DISPENSE_CASH",
+    "remaining_balance": 98000.0,
+    "reasons": [
+      "Transaction within regular safety bounds"
+    ],
+    "message": "TRANSACTION APPROVED: Please take your cash (Rs. 50,000). Remaining Balance: Rs. 98,000"
+  },
+  {
+    "timestamp": "2026-10-01 20:45:42",
+    "card_id": "CARD_1003",
+    "amount": 5000.0,
+    "status": "CARD_BLOCKED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "AUTO_BLOCKED",
+    "reasons": [
+      "Exceeded maximum allowed PIN attempts (3 failed tries)"
+    ],
+    "message": "ALERT: 3 failed PIN attempts detected. Card automatically BLOCKED to prevent brute force theft."
+  },
+  {
+    "timestamp": "2026-10-01 20:45:42",
+    "card_id": "CARD_1002",
+    "amount": 2000.0,
+    "status": "REJECTED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 1.0,
+    "action_taken": "CARD_RETAINED",
+    "reasons": [
+      "Card is currently BLOCKED by security."
+    ],
+    "message": "CARD ALREADY BLOCKED: Transaction aborted. ATM has retained card for owner safety."
+  },
+  {
+    "timestamp": "2026-10-01 20:45:42",
+    "card_id": "CARD_1002",
+    "amount": 45000.0,
+    "status": "CARD_BLOCKED",
+    "risk_level": "CRITICAL",
+    "fraud_prob": 0.9917,
+    "action_taken": "AUTO_BLOCKED",
+    "reasons": [
+      "Impossible Physical Travel (3400 km/h between locations)",
+      "High withdrawal (45,000) during high-risk midnight hours (03:00)",
+      "Anomalous distance (850.0 km away from registered home city)",
+      "1 preceding incorrect PIN attempt(s)"
+    ],
+    "message": "SECURITY ALERT: Fraud probability 99.2%. CARD INSTANTLY BLOCKED. Please contact bank customer support."
+  },
+  {
+    "timestamp": "2026-10-01 20:45:42",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "APPROVED",
+    "risk_level": "LOW",
+    "fraud_prob": 0.0,
+    "action_taken": "DISPENSE_CASH",
+    "remaining_balance": 148000.0,
+    "reasons": [
+      "Transaction within regular safety bounds"
+    ],
+    "message": "TRANSACTION APPROVED: Please take your cash (Rs. 2,000). Remaining Balance: Rs. 148,000"
+  },
+  {
+    "timestamp": "2026-10-01 20:45:20",
+    "card_id": "CARD_1001",
+    "amount": 2000.0,
+    "status": "APPROVED",
+    "risk_level": "LOW",
+    "fraud_prob": 0.0,
+    "action_taken": "DISPENSE_CASH",
+    "remaining_balance": 148000.0,
+    "reasons": [
+      "Transaction within regular safety bounds"
+    ],
+    "message": "TRANSACTION APPROVED: Please take your cash (Rs. 2,000). Remaining Balance: Rs. 148,000"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "model_name": "Balanced Random Forest Classifier",
+  "test_size": 3000,
+  "fraud_test_count": 55,
+  "metrics": {
+    "precision": 1.0,
+    "recall": 0.9818,
+    "f1_score": 0.9908,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0
+  },
+  "confusion_matrix": {
+    "true_negatives": 2945,
+    "false_positives": 0,
+    "false_negatives": 1,
+    "true_positives": 54
+  },
+  "feature_importances": [
+    {
+      "feature": "amount",
+      "importance": 0.2994
+    },
+    {
+      "feature": "location_dist_km",
+      "importance": 0.2856
+    },
+    {
+      "feature": "velocity_kmh",
+      "importance": 0.2237
+    },
+    {
+      "feature": "daily_atm_count",
+      "importance": 0.0969
+    },
+    {
+      "feature": "time_diff_min",
+      "importance": 0.0591
+    },
+    {
+      "feature": "is_international",
+      "importance": 0.0182
+    },
+    {
+      "feature": "failed_pin_count",
+      "importance": 0.0077
+    },
+    {
+      "feature": "atm_type_Off-Premise",
+      "importance": 0.0055
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0036
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0001
+    },
+    {
+      "feature": "atm_type_Remote ATM",
+      "importance": 0.0001
+    }
+  ],
+  "feature_columns": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "location_dist_km",
+    "time_diff_min",
+    "velocity_kmh",
+    "failed_pin_count",
+    "daily_atm_count",
+    "atm_type",
+    "is_international"
+  ],
+  "all_feature_names": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "location_dist_km",
+    "time_diff_min",
+    "velocity_kmh",
+    "failed_pin_count",
+    "daily_atm_count",
+    "atm_type_Off-Premise",
+    "atm_type_Remote ATM",
+    "is_international"
+  ]
+}

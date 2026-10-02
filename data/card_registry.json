@@ -1,0 +1,54 @@
+{
+  "CARD_1001": {
+    "card_id": "CARD_1001",
+    "holder_name": "Salma Khan",
+    "masked_number": "4532 **** **** 1001",
+    "pin": "1234",
+    "balance": 93000.0,
+    "daily_limit": 50000.0,
+    "status": "ACTIVE",
+    "home_city": "Karachi",
+    "blocked_at": null,
+    "block_reason": null,
+    "fraud_score": 0.0
+  },
+  "CARD_1002": {
+    "card_id": "CARD_1002",
+    "holder_name": "Hamza Ali",
+    "masked_number": "5241 **** **** 1002",
+    "pin": "4321",
+    "balance": 35000.0,
+    "daily_limit": 50000.0,
+    "status": "ACTIVE",
+    "home_city": "Lahore",
+    "blocked_at": null,
+    "block_reason": null,
+    "fraud_score": 0.0
+  },
+  "CARD_1003": {
+    "card_id": "CARD_1003",
+    "holder_name": "Ayesha Malik",
+    "masked_number": "4111 **** **** 1003",
+    "pin": "9988",
+    "balance": 320000.0,
+    "daily_limit": 100000.0,
+    "status": "BLOCKED",
+    "home_city": "Islamabad",
+    "blocked_at": "2026-10-01 20:45:42",
+    "block_reason": "Automated Security Lock: 3 consecutive failed PIN attempts.",
+    "fraud_score": 1.0
+  },
+  "CARD_1004": {
+    "card_id": "CARD_1004",
+    "holder_name": "Bilal Ahmed",
+    "masked_number": "5425 **** **** 1004",
+    "pin": "7777",
+    "balance": 45000.0,
+    "daily_limit": 25000.0,
+    "status": "ACTIVE",
+    "home_city": "Rawalpindi",
+    "blocked_at": null,
+    "block_reason": null,
+    "fraud_score": 0.0
+  }
+}
